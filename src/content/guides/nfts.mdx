@@ -1,0 +1,241 @@
+# Minting and Managing NFTs
+
+This guide covers how to mint NFTs in your collections and manage them on Raven House.
+
+## Understanding NFT States
+
+NFTs on Raven House can exist in different states:
+
+- **Not Minted**: NFT metadata exists in the collection but hasn't been minted on-chain yet
+- **Minted**: NFT exists on the Aztec blockchain and has an owner
+- **Listed**: Minted NFT that's available for purchase on the marketplace
+- **Private**: NFT owned privately using zero-knowledge proofs
+
+## Minting NFTs
+
+1. Navigate to any collection page
+2. Browse the available NFTs in the collection
+3. Click on an unminted NFT (shows "Not minted yet" badge and price)
+4. In the NFT details modal, review the NFT details and traits
+5. Click "Mint This NFT" 
+6. Confirm the transaction in your wallet
+7. Wait for the minting process to complete
+
+The minting process involves:
+- Processing the payment (in USDC)
+- Uploading metadata to IPFS (if not already uploaded)
+- Creating the NFT on-chain
+- Transferring ownership to your wallet
+
+Once minted, the NFT will appear in your profile and the "Not minted yet" badge will be removed.
+
+
+
+### How Collection Owners Add NFTs
+
+Collection owners can add NFTs to their collections in two ways:
+
+#### During Collection Creation (Step 2)
+- Upload a ZIP file with images and metadata during the collection creation process
+- This allows adding multiple NFTs at once before launching the collection
+
+#### After Collection Launch  
+- Use the "Upload Collection Metadata" feature on the collection page
+- Upload a ZIP file containing new NFTs to add to the existing collection
+
+Both methods use the same ZIP file format with an images folder and metadata.json file as described in the [Collections Guide](/guides/collections).
+
+## NFT Ownership and Privacy
+
+### Public vs Private Ownership
+
+Raven House supports both traditional and private NFT ownership:
+
+**Public NFTs:**
+- Ownership visible on blockchain explorers
+- Standard NFT functionality
+- Can be listed on public marketplaces
+
+**Private NFTs:**
+- Ownership information shielded using zero-knowledge proofs
+- Only you can see your private NFT collection
+- Enhanced privacy for collectors
+
+### Checking Ownership
+
+Your NFT dashboard shows:
+- **Public NFTs**: NFTs you own transparently
+- **Private NFTs**: NFTs you own privately
+- **All NFTs**: Combined view of your entire collection
+
+## NFT Marketplace Features
+
+### Listing NFTs for Sale
+
+To list an NFT for sale:
+
+1. Go to the NFT detail page
+2. In the owner actions section, enter your desired price
+3. Click "List for Sale"
+4. Confirm the transaction in your wallet
+
+Your NFT will appear in marketplace listings with the specified price.
+
+### Updating Listings
+
+If your NFT is already listed:
+1. Navigate to the NFT details page
+2. Enter a new price
+3. Click "Update Listing"
+4. Confirm the transaction
+
+### Cancelling Listings
+
+To remove an NFT from sale:
+1. Go to the NFT detail page
+2. Click "Cancel Listing" 
+3. Confirm the transaction
+4. The NFT will be removed from marketplace
+
+### Purchasing NFTs
+
+To buy an NFT:
+
+1. Browse collections or use search to find NFTs
+2. Click on a listed NFT (shows price)
+3. Click "Buy Now" in the NFT details
+4. Confirm the purchase transaction
+5. The NFT transfers to your wallet automatically
+
+## Transferring NFTs
+
+### Standard Transfers
+
+To transfer an NFT to another wallet:
+
+1. Navigate to the NFT detail page
+2. Click "Transfer NFT"
+3. Choose transfer type:
+   - **Public Transfer**: Standard visible transfer
+   - **Private Transfer**: Confidential transfer using zero-knowledge proofs
+4. Enter the recipient's Aztec address
+5. Confirm the transaction
+
+### Transfer Types
+
+- **Public to Public**: Traditional blockchain transfer
+- **Public to Private**: Convert public NFT to private ownership
+- **Private to Private**: Keep NFT private during transfer
+- **Private to Public**: Make private NFT publicly owned
+
+## Managing Your NFTs
+
+### Viewing Your Collection
+
+Your Profile page shows all NFTs you own:
+
+- **All NFTs**: Complete collection view
+- **Public NFTs**: Transparently owned NFTs
+- **Private NFTs**: Privately owned NFTs
+
+### NFT Details Page
+
+Each NFT detail page displays:
+
+- NFT image and metadata
+- Current owner information
+- Trait values and rarity
+- Price and listing status
+- Purchase or transfer options
+- Transaction history
+
+### Available Actions
+
+Depending on your relationship to the NFT, you can:
+
+- **As Owner**: List for sale, transfer, or update listing
+- **As Buyer**: Purchase listed NFTs
+- **As Visitor**: View details and traits
+
+## NFT Sharing and Social Features
+
+### Sharing NFTs
+
+After minting, you can share your NFT:
+
+1. Click the "Share on Twitter" button in the success message
+2. This creates a pre-filled tweet with:
+   - NFT name and collection
+   - Transaction hash link
+   - Relevant hashtags
+
+### Social Proof
+
+- Minted NFTs can be shared on social media
+- Transaction hashes provide verification
+- Community features coming soon
+
+## Best Practices
+
+### For Collectors
+
+- **Verify authenticity**: Check contract addresses and creators
+- **Understand privacy**: Choose public or private ownership based on your needs
+- **Secure your wallet**: Use hardware wallets for valuable NFTs
+- **Research collections**: Understand traits and rarity before purchasing
+
+### For Creators
+
+- **Define clear traits**: Make trait structures meaningful and balanced
+- **Set fair prices**: Consider your community and market conditions
+- **Engage your audience**: Use Discord integration and social features
+- **Plan your drops**: Coordinate launches with marketing efforts
+
+## Troubleshooting
+
+### Common Issues
+
+**Minting Fails:**
+- Check wallet connection and balance
+- Ensure you have minting rights for the collection
+- Verify the collection is properly launched
+
+**NFT Not Appearing:**
+- Wait for blockchain confirmation
+- Refresh your profile page
+- Check if NFT is in private balance
+
+**Transfer Issues:**
+- Verify recipient address format
+- Ensure sufficient gas/fees
+{/* - Check wallet permissions */}
+
+### Getting Support
+
+For technical issues:
+- Join our [Discord community](https://discord.gg/CR8nKg5gYB)
+- Check the [wallet connection guide](https://docs.ravenhouse.xyz/getting-started)
+{/* - Contact support through the platform */}
+
+## Advanced Features
+
+{/* ### Coming Soon
+
+- **Batch operations**: Transfer multiple NFTs at once
+- **Advanced filtering**: Search by complex trait combinations
+- **Rarity calculations**: Automatic rarity scoring
+- **Enhanced marketplace**: Bidding and auction features */}
+
+### Integration Opportunities
+
+- **Discord verification**: Prove NFT ownership for exclusive access
+- **DeFi integration**: Use NFTs as collateral or in yield farming
+- **Cross-platform compatibility**: Bridge NFTs to other networks
+
+## Next Steps
+
+After minting and managing NFTs:
+
+- [Set up Discord integration](/guides/discord) to reward NFT holders with exclusive access
+- [Learn about privacy features](/guides/privacy) for enhanced confidentiality
+- [Explore collection management](/guides/collections) for creators

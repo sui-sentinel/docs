@@ -1,0 +1,110 @@
+# How to Launch a NFT Collection
+
+This guide will walk you through process of launching NFT collection on the Aztec network with Raven House.
+
+Raven House provides the essential infrastructure for NFTs on the Aztec layer 2 blockchain. It leverages the power of zero-knowledge proofs and client-side proving to bring true privacy to your digital assets. With Raven House, you can mint, list, and transfer NFTs privately, and even prove you hold an NFT without ever revealing your wallet address.
+
+
+
+## Video Guide
+
+Watch this comprehensive video tutorial that walks through the entire collection creation process:
+
+<iframe 
+  width="100%" 
+  height="400" 
+  src="https://www.youtube.com/embed/TGUKf2CTQSM" 
+  title="How to Create and Launch an NFT Collection on Raven House" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowFullScreen
+></iframe>
+
+*This video covers the complete process from collection creation to launch, including tips and best practices.*
+
+### Prerequisites
+
+Before we begin, you'll need an Aztec-compatible wallet. If you haven't set one up yet, please follow this guide to set up your wallet.
+
+👉 Setup your Wallet: [https://docs.ravenhouse.xyz/wallets/obsidion](https://docs.ravenhouse.xyz/wallets/obsidion)
+
+Ready? Let's get started!
+
+## Step 1: Create Your Collection
+
+The first step is to define the core details, traits, and economics of your collection.
+
+### 1.1 Collection Details
+
+Navigate to the "Create Collection" page. Here, you'll fill out the foundational information for your NFT project.
+
+* Collection Name: The public name of your collection (e.g., "Aztec Alpha Builders").
+* Collection Symbol: A short ticker for your collection (e.g., "ALPHABUILDERS"). This will be used in the contract and cannot be changed.
+* Collection Image: This is the main profile picture or logo for your collection. A resolution of 800x800px is recommended.
+* Banner Image: A header image for your collection page. A resolution of 1400x400px is recommended.
+* Description: A detailed description of your collection's purpose and vision.
+
+![Collection Details](/img/docs/collection-details.png)
+
+### 1.2 Define Traits
+
+Next, you'll define the traits that your NFTs can have. These traits are the properties that make each NFT unique and will be used when you mint them. You can define the trait's name (Trait Key), its data type (Text, Yes/No, Number), and a brief description.
+
+![Define Traits](/img/docs/trait-definition.png)
+
+### 1.3 Economics & Supply
+
+Finally, set up the rules for minting your NFTs.
+
+* Mint Price: The cost to mint one NFT (e.g., 1000 USDC).
+* Royalty Fee: The percentage you'll earn from secondary sales.
+* Max Supply: The total number of NFTs that can ever be created. You can also check the box for an unlimited supply.
+* Mint Limit per Wallet: The maximum number of NFTs a single wallet can mint. You can also disable this limit.
+* Public Minting: Toggle this on to allow anyone to mint. If disabled, only wallets you've approved can mint.
+
+Once you've filled everything out, click "Create Collection".
+
+![Economics & Supply](/img/docs/economics-form.png)
+
+---
+
+## Step 2: Upload Your NFTs
+
+With your collection created, it's time to upload your NFT assets and metadata. This step links your artwork and traits to the collection.
+
+You will need to prepare a ZIP file containing your PNG image files and a metadata.json file. The platform provides a clear structure for the JSON file and a template ZIP for you to download.
+
+![Upload NFTs](/img/docs/upload-nfts.png)
+
+Click to upload your prepared ZIP file. The platform will validate it to ensure it matches the traits you defined in Step 1.
+
+Once the upload is successful, you'll see a confirmation message. Your NFTs are now available in your collection, ready for minting once the collection is launched.
+
+{/* ![Upload Successful](Screenshot%202025-06-04%20at%201.40.51%E2%80%AFPM.jpg) */}
+
+---
+
+## Step 3: Launch Your Collection
+
+This is the final step! Launching deploys your collection's smart contract to the Aztec network, making it live and ready for minting and trading.
+
+You can choose to launch immediately or come back and do it later from your profile page.
+
+![Launch Collection](/img/docs/launch-collection.png)
+
+When you're ready, click "Launch Collection". A final confirmation pop-up will appear, summarizing your collection's details. Review everything carefully, as this action cannot be undone.
+
+
+## Troubleshooting
+
+### Common Issues
+
+- **Validation errors**: Ensure your ZIP file structure matches the requirements exactly
+- **Contract deployment fails**: Check your wallet connection and try again
+{/* - **Images not displaying**: Verify image formats are PNG and properly named */}
+
+### Getting Help
+
+If you encounter issues:
+- Check our [Discord community](https://discord.gg/CR8nKg5gYB) for support
+- Review the [wallet connection guide](https://docs.ravenhouse.xyz/getting-started) if having wallet issues
+{/* - Contact our team through the platform for technical support */}
