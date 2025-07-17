@@ -1,6 +1,14 @@
 {
   "index": {
-    "title": "Introduction",
+    "title": "Introduction & Gameplay",
+    "type": "page"
+  },
+  "key-concepts": {
+    "title": "Key Concepts & Vision",
+    "type": "page"
+  },
+  "tokenomics": {
+    "title": "Tokenomics, Roadmap & Community",
     "type": "page"
   }
 }
