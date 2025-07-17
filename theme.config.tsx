@@ -40,8 +40,8 @@ const config = {
     }
   },
   // banner: {
-  //   key: 'aztec-testnet',
-  //   text: '⚠️ Sui Sentinel is currently running on Aztec Testnet. Use with caution.',
+  //   key: 'sui-testnet',
+  //   text: '⚠️ Sui Sentinel is currently running on sui Testnet. Use with caution.',
   // },
   sidebar: {
     titleComponent({ title, type }) {

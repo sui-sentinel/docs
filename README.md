@@ -1,10 +1,6 @@
 # Sui Sentinel Documentation
 
-This repository contains the official documentation for [Sui Sentinel](https://suisentinel.xyz/), a privacy-focused NFT marketplace built on Aztec Network.
-
-## About Sui Sentinel
-
-Sui Sentinel is a next-generation NFT marketplace that leverages Aztec Network's zero-knowledge technology to provide enhanced privacy, lower fees, and improved user experience for creators and collectors.
+This repository contains the official documentation for [Sui Sentinel](https://suisentinel.xyz/).
 
 ## Documentation
 

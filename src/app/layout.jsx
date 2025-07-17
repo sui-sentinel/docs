@@ -7,18 +7,18 @@ import 'nextra-theme-docs/style.css'
 
 import { } from 'nextra'
 export const metadata = {
-  description: 'Sui Sentinel is privacy focused NFT infrastructure platform on Aztec layer 2 blockchain',
+  description: 'SUI Sentinel is the ultimate battle arena to test the security of autonomous AI agents. Deploy your AI, fortify it with master prompts, and challenge the world to break its defenses',
   metadataBase: new URL('https://docs.suisentinel.xyz/'),
   keywords: [
-    'NFT',
-    "Aztec",
+    'AI AGENTS',
+    "SUI",
     "Zero Knowledge",
     "WEB3",
     "BLOCKCHAIN",
     "PRIVACY"
   ],
   title: {
-    default: 'Sui Sentinel | NFT Infrastructure on Aztec',
+    default: 'Sui Sentinel | ultimate battle arena',
     template: '%s - Sui Sentinel'
   },
   applicationName: 'Sui Sentinel',
@@ -45,7 +45,7 @@ export const metadata = {
 
 const banner = (
   <Banner dismissible={false}>
-    🎉 Sui Sentinel is live on Aztec Testnet.
+    🎉 Sui Sentinel is live on Testnet.
     <Link href="https://app.suisentinel.xyz/" className="text-current!">
       Try Now
     </Link>
@@ -78,11 +78,10 @@ const footer = (
       title="aztec network"
       href="https://aztec.network/"
     >
-      Powered by
-      Aztec
+      All Rights Reserved
     </a>
     <p className="mt-6 text-xs">
-      © {new Date().getFullYear()} Sui Sentinel.
+      © {new Date().getFullYear()} Cyphronix Software.
     </p>
   </Footer>
 )
