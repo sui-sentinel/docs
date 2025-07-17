@@ -7,8 +7,8 @@ import 'nextra-theme-docs/style.css'
 
 import { } from 'nextra'
 export const metadata = {
-  description: 'Raven House is privacy focused NFT infrastructure platform on Aztec layer 2 blockchain',
-  metadataBase: new URL('https://docs.ravenhouse.xyz'),
+  description: 'Sui Sentinel is privacy focused NFT infrastructure platform on Aztec layer 2 blockchain',
+  metadataBase: new URL('https://docs.suisentinel.xyz/'),
   keywords: [
     'NFT',
     "Aztec",
@@ -18,35 +18,35 @@ export const metadata = {
     "PRIVACY"
   ],
   title: {
-    default: 'Raven House | NFT Infrastructure on Aztec',
-    template: '%s - Raven House'
+    default: 'Sui Sentinel | NFT Infrastructure on Aztec',
+    template: '%s - Sui Sentinel'
   },
-  applicationName: 'Raven House',
+  applicationName: 'Sui Sentinel',
   openGraph: {
     // https://github.com/vercel/next.js/discussions/50189#discussioncomment-10826632
     url: './',
-    siteName: 'Raven House',
+    siteName: 'Sui Sentinel',
     locale: 'en_US',
     type: 'website'
   },
   generator: 'Next.js',
   appleWebApp: {
-    title: 'Raven House'
+    title: 'Sui Sentinel'
   },
   other: {
     'msapplication-TileImage': '/ms-icon-144x144.png',
     'msapplication-TileColor': '#fff'
   },
   twitter: {
-    site: 'https://x.com/ravenhousenft'
+    site: 'https://x.com/suisentinel'
   }
 }
 
 
 const banner = (
   <Banner dismissible={false}>
-    🎉 Raven House is live on Aztec Testnet.
-    <Link href="https://app.ravenhouse.xyz/" className="text-current!">
+    🎉 Sui Sentinel is live on Aztec Testnet.
+    <Link href="https://app.suisentinel.xyz/" className="text-current!">
       Try Now
     </Link>
     .
@@ -58,9 +58,9 @@ const navbar = (
     logo={
       <span>
         <img
-          src="/img/logo.svg"
-          alt="Raven House Logo"
-          height="32"
+          src="/img/logo.png"
+          alt="Sui Sentinel Logo"
+          width="32"
           style={{ marginRight: '8px' }}
         />
       </span>
@@ -82,7 +82,7 @@ const footer = (
       Aztec
     </a>
     <p className="mt-6 text-xs">
-      © {new Date().getFullYear()} RavenHouse.
+      © {new Date().getFullYear()} Sui Sentinel.
     </p>
   </Footer>
 )

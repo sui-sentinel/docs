@@ -4,19 +4,19 @@ const config = {
   logo: (
     <span>
       <img
-        src="/img/logo.svg"
-        alt="Raven House Logo"
+        src="/img/logo.png"
+        alt="Sui Sentinel Logo"
         height="32"
         style={{ marginRight: '8px' }}
       />
     </span>
   ),
   project: {
-    link: 'https://github.com/satyambnsal/docs.ravenhouse',
+    link: 'https://github.com/sui-sentinel/docs',
   },
-  docsRepositoryBase: 'https://github.com/satyambnsal/docs.ravenhouse/tree/main',
+  docsRepositoryBase: 'https://github.com/sui-sentinel/docs/tree/master',
   footer: {
-    text: `© ${new Date().getFullYear()} Raven House. All rights reserved.`,
+    text: `© ${new Date().getFullYear()} Sui Sentinel. All rights reserved.`,
   },
   head: (
     <>
@@ -26,22 +26,22 @@ const config = {
       />
       <meta
         name="description"
-        content="Raven House documentation"
+        content="Sui Sentinel documentation"
       />
       <meta
         name="og:title"
-        content="Raven House: Privacy-focused NFT Marketplace"
+        content="Sui Sentinel: Privacy-focused NFT Marketplace"
       />
     </>
   ),
   useNextSeoProps() {
     return {
-      titleTemplate: '%s - Raven House Docs',
+      titleTemplate: '%s - Sui Sentinel Docs',
     }
   },
   // banner: {
   //   key: 'aztec-testnet',
-  //   text: '⚠️ Raven House is currently running on Aztec Testnet. Use with caution.',
+  //   text: '⚠️ Sui Sentinel is currently running on Aztec Testnet. Use with caution.',
   // },
   sidebar: {
     titleComponent({ title, type }) {

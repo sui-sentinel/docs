@@ -1,10 +1,10 @@
-# Raven House Documentation
+# Sui Sentinel Documentation
 
-This repository contains the official documentation for [Raven House](https://ravenhouse.xyz), a privacy-focused NFT marketplace built on Aztec Network.
+This repository contains the official documentation for [Sui Sentinel](https://suisentinel.xyz/), a privacy-focused NFT marketplace built on Aztec Network.
 
-## About Raven House
+## About Sui Sentinel
 
-Raven House is a next-generation NFT marketplace that leverages Aztec Network's zero-knowledge technology to provide enhanced privacy, lower fees, and improved user experience for creators and collectors.
+Sui Sentinel is a next-generation NFT marketplace that leverages Aztec Network's zero-knowledge technology to provide enhanced privacy, lower fees, and improved user experience for creators and collectors.
 
 ## Documentation
 
@@ -12,37 +12,8 @@ This documentation is built using [Nextra](https://nextra.site/), a Next.js-base
 
 ### Features
 
-- Comprehensive guides for using Raven House
+- Comprehensive guides for using Sui Sentinel
 - Privacy and security explanations
-
-## Running Locally
-
-To run the documentation site locally:
-
-1. Clone this repository
-
-   ```
-   git clone https://github.com/satyambnsal/docs.ravenhouse.git
-   cd docs.ravenhouse
-   ```
-
-2. Install dependencies
-
-   ```
-   npm install
-   # or
-   yarn
-   ```
-
-3. Start the development server
-
-   ```
-   npm run dev
-   # or
-   yarn dev
-   ```
-
-4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
 ## Structure
 
@@ -71,8 +42,7 @@ This repository is licensed under the MIT License - see the [LICENSE](LICENSE) f
 
 ## Contact
 
-For questions about the documentation or Raven House in general:
+For questions about the documentation or Sui Sentinel in general:
 
-- Discord: [Join our server](https://discord.gg/gCPZhWBYQH)
-- Twitter: [@ravenhousenft](https://twitter.com/ravenhousenft)
-
+- Discord: [Join our Telegram channel](https://t.me/suisentinel)
+- Twitter: [@suisentinel](https://x.com/suisentinal)
