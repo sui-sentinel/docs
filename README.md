@@ -40,5 +40,5 @@ This repository is licensed under the MIT License - see the [LICENSE](LICENSE) f
 
 For questions about the documentation or Sui Sentinel in general:
 
-- Discord: [Join our Telegram channel](https://t.me/suisentinel)
+- Telegram: [Join our Telegram channel](https://t.me/suisentinel)
 - Twitter: [@suisentinel](https://x.com/suisentinal)

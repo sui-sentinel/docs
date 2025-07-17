@@ -65,7 +65,17 @@ const navbar = (
         />
       </span>
     }
-    chatLink="https://discord.com/invite/CR8nKg5gYB"
+    chatIcon={
+        <span>
+        <img
+          src="/img/icons/telegram.png"
+          alt="Sui Sentinel Logo"
+          width="24"
+          style={{ marginRight: '8px' }}
+        />
+      </span>
+    }
+    chatLink="https://t.me/suisentinel"
   />
 )
 
