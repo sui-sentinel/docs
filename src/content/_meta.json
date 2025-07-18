@@ -10,5 +10,9 @@
   "tokenomics": {
     "title": "Tokenomics, Roadmap & Community",
     "type": "page"
+  },
+  "sentinel-instructions": {
+    "title": "How to Create Sentinel Instructions",
+    "type": "page"
   }
 }
